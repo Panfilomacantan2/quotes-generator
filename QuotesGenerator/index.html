@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>QUOTES GENERATOR</title>
+		<link rel="stylesheet" href="style.css" />
+		<link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="quote-box">
+			<span class="bookmark"><i class="bx bxs-bookmark-heart"></i></span>
+			<span id="info"><i class='bx bx-info-circle'></i></span>
+			<h1>QUOTES GENERATOR</h1>
+			<h3>Tags: <span id="tags">wisdom</span></h3>
+			<div class="quote-text">
+				<p id="text"></p>
+			</div>
+			<div class="quote-author">
+				<p id="author"></p>
+			</div>
+			<div class="buttons">
+				<span id="theme"><i class="bx bx-sun"></i></span>
+				<span id="favorites"><i class="bx bx-star"></i></span>
+				<span id="copyQuote"><i class="bx bx-copy-alt"></i></span>
+				<button id="new-quote" class="btn">New Quote</button>
+			</div>
+		</div>
+		<!-- fetch stored quotes -->
+		<div class="favorite_quotes_container">
+			
+		</div>
+
+	<!-- navigator button -->
+			<span class="navigator"><i class='bx bx-arrow-back'></i></span>
+
+		<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+		<script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+		<script src="./app.js"></script>
+	</body>
+</html>
